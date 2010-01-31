@@ -2,6 +2,11 @@ from __future__ import with_statement
 from subprocess import PIPE, Popen
 import re
 
+"""
+To the extent possible under law, Jonathan Feinberg  has waived all copyright 
+and related or neighboring rights to html2text. This work is published from United States. 
+"""
+
 class TextFormatter:
     def __init__(self, process=None, lynx='/usr/bin/lynx'):
         self.lynx = lynx
